@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<List>
+	<Dict name="Эллипс 1" margin="$T$187,220,0,0" width="$200" height="$100" stroke="$C$Black" fill="$C$Red" thickness="$3" type="Эллипс">
+		<transform>
+			<Dict rotate="90 0 0" scale="2 2"/>
+		</transform>
+	</Dict>
+	<Dict name="Эллипс 2" margin="$T$188,123,0,0" width="$200" height="$100" stroke="$C$Black" fill="$C$Aqua" thickness="$3" type="Эллипс"/>
+	<Dict name="Многоугольник 1" points="$P$114,-127|164,-77|114,-77|164,-127" stroke="$C$Black" fill="$C$White" thickness="$3" type="Многоугольник">
+		<transform>
+			<Dict rotate="90 0 0" scale="2 2"/>
+		</transform>
+	</Dict>
+	<Dict name="Линия 1" start="$p$141,223" end="$p$191,273" stroke="$C$Black" thickness="$9" type="Линия"/>
+	<Dict name="Линия 2" start="$p$334,248" end="$p$384,298" stroke="$C$Black" thickness="$9" type="Линия"/>
+	<Dict name="Линия 3" start="$p$463,349" end="$p$513,399" stroke="$C$Black" thickness="$9" type="Линия">
+		<transform>
+			<Dict rotate="55 0 0"/>
+		</transform>
+	</Dict>
+	<Dict name="Линия 4" start="$p$393,401" end="$p$443,451" stroke="$C$Black" thickness="$9" type="Линия">
+		<transform>
+			<Dict rotate="20 0 0"/>
+		</transform>
+	</Dict>
+</List>

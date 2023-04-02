@@ -1,0 +1,18 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="using:Paint"
+             x:Class="Paint.App"
+			 xmlns:conv="clr-namespace:Paint.Views.Converters">
+	
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+
+    <Application.Styles>
+        <FluentTheme Mode="Light"/>
+    </Application.Styles>
+
+	<Application.Resources>
+		<conv:SafeToColor x:Key="S2C_converter"/>
+	</Application.Resources>
+</Application>
